@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .photo-section {
+            width: 300px;
+            border: 5px solid rgb(214, 214, 129);
+            margin: 15px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .photo {
+
+            transition: transform 2s ease-in-out;
+        }
+
+        .photo img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .photo-section:hover .photo-details {
+            display: block;
+        }
+
+        .photo-section:hover .photo {
+            transform: scale(2.5em);
+        }
+
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+            background-color: rgba(255, 235, 205, 0.459);
+        }
+
+        .photo-details h3 {
+            background-color: rgba(0, 0, 0, 0.418);
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Photo Album</h1>
+    <section>
+
+        <div class="photo-album">
+            <div class="photo-section">
+                <div class="photo">
+                    <img class="hehe" src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+            <div class="photo-section">
+                <div class="photo">
+                    <img src="images/img.png" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>A bat</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, debitis? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Deserunt voluptatem repellendus labore similique
+                        alias esse illum, quam quia excepturi quisquam nesciunt. Eius amet inventore nihil. Nisi magni
+                        commodi illo nesciunt?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
